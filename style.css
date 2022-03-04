@@ -1,0 +1,168 @@
+/* Colors and fonts */
+
+body {
+  background-image: linear-gradient(rgba(219, 212, 208, 0.1), rgba(219, 212, 208, 0.9)), url("images/background.jpeg");
+  background-size: cover;
+  color: rgba(41, 40, 45, 1.0);
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+h2, h3{
+  font-family: 'Lora', serif;
+}
+
+h1{
+  color: rgba(102, 103, 171, 0.9);
+  font-size:  48px;
+  font-family: 'Festive', cursive;
+}
+
+h2{
+  color: rgba(98, 92, 96, 0.9);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2:hover{
+  color: rgba(98, 92, 96, 1.0);
+  transition: color 0.2s ease;
+}
+
+a{
+  font-family: 'Lora', italic;
+  text-decoration: none;
+  color: rgba(102, 103, 171, 0.4);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgba(102, 103, 171, 0.9);
+  transition: color 0.2s ease;
+}
+
+
+/*Custom Design with Class*/
+.headline{
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white, 0 0 40px white;
+}
+
+.container{
+  margin: auto;
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background: rgba(250, 250, 250, 0.15);
+  padding: 25px 30px 75px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px white, 0 0 25px white;
+}
+
+@media(max-width: 540px){
+  .container{
+    margin: auto;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+.card-white{
+  background-color: rgba(250, 250, 250, 0.5);
+  margin: 30px 0px;
+  padding: 20px 40px 30px;
+  /*border-style: inset;
+  border-width: medium;
+  border-color: rgba(240, 240, 240, 0.9);*/
+  border-radius: 4px;
+  text-align: center;
+}
+
+@media(max-width: 540px){
+  .card-white{
+    margin: 20px 0px;
+    padding: 10px 20px 15px;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.btn-pink{
+  margin: 30px;
+  background-color: rgba(219, 212, 208, 0.5);
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btn-pink:hover{
+  box-shadow: 0 0 5px white, 0 0 10px white;
+  transition: color 0.3s ease;
+}
+
+.btn-pink:active{
+  background-color: rgba(219, 212, 208, 1.0);
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 10px 40px 0px 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.img-transparent{
+  opacity: 0.5;
+}
+
+.img-transparent:active{
+  opacity: 1.0;
+  transition: 0.2s ease;
+}
+
+
+/*Design adjustment using id*/
+#bio{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+#bio:hover{
+  border-style: outset;
+  border-width: 2px;
+  border-color: rgba(240, 240, 240, 0.9);
+  transition: 0.3s ease;
+}
+
+#profile-pic{
+  border-radius: 45%;
+  box-shadow: 4px 4px 3px darkgrey;
+}
+
+#end-dots{
+  color: rgba(250, 250, 250, 0.8);
+  text-align: center;
+  font-size: 48px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
